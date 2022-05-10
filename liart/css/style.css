@@ -90,9 +90,6 @@
 }
 
 @media (max-width: 991.98px) {
-    .hide-new3 {
-        display: none;
-    }
     .navbar-light .navbar-nav .nav-link  {
         margin-left: 0;
         padding: 10px 0;
