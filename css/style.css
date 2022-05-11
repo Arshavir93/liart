@@ -106,8 +106,8 @@
 
 .service-item {
     position: relative;
-    height: 70px;
-    padding: 0 30px;
+    height: 92px;
+    padding: 0 28px;
     transition: .5s;
 }
 
@@ -135,9 +135,14 @@
     opacity: 0;
 }
 
-.service-item:hover a.btn {
+/* .service-item:hover a.btn {
     bottom: -24px;
     opacity: 1;
+} */
+
+.service-item:hover {
+    background-color: #eaeaea !important;
+    cursor: pointer;
 }
 
 .price-carousel::after {
