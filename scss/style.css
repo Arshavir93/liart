@@ -163,7 +163,8 @@ a:hover {
 }
 
 .site-footer {
-  padding: 4em 0;
+  text-align: center;
+  padding: 4em 0 2em;
   background: #333333;
 }
 
@@ -297,6 +298,20 @@ a:hover {
 .team-carousel .col-sm-5, .team-carousel .col-sm-7 {
   padding-left: 0;
   padding-right: 0;
+}
+
+.btn-lg-square {
+  width: 55px;
+  height: 46px;
+}
+
+.call {
+  position: fixed;
+  /* display: none; */
+  right: 30px;
+  bottom: 30px;
+  margin-top: auto;
+  z-index: 99;
 }
 
 /* Navbar */

@@ -142,7 +142,8 @@ a {
 }
 
 .site-footer {
-	padding: 4em 0;
+	text-align: center;
+	padding: 4em 0 2em;
 	background: lighten($black, 20%);
 	p {
 		color: lighten($black, 45%); 
@@ -264,4 +265,19 @@ a {
 		padding-left: 0;
 		padding-right: 0;
 	}
+}
+
+.btn-lg-square {
+    width: 55px;
+    height: 46px;
+}
+
+.call {
+    position: fixed;
+    /* display: none; */
+    right: 30px;
+    bottom: 30px;
+	margin-top: auto;
+    // border-radius: 50% 50% 0 0;
+    z-index: 99;
 }
