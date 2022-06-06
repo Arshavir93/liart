@@ -79,7 +79,8 @@
 }
 
 .site-block-appointment, .bg-light {
-	background: #ece8d9!important;
+	// background: #ece8d9!important;
+	background: #f8f5ec !important;
 	form {
 		box-shadow: 0 5px 20px -2px rgba(0,0,0,.1);
 	}
@@ -151,7 +152,7 @@
 	.feature {
 		transition: .3s all ease-in-out;
 		&:hover, &:focus {
-			background: #ece8d9;
+			background: #f8f5ec;
 		}
 	}
 }

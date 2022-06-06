@@ -278,7 +278,8 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   color: #FFFFFF;
-  background: var(--primary);
+  /* background: var(--primary); */
+  background: #bb9166;
   border-radius: 45px;
   font-size: 22px;
   -webkit-transition: .5s;
@@ -792,7 +793,7 @@ a:hover {
 }
 
 .site-block-appointment, .bg-light {
-  background: #ece8d9 !important;
+  background: #f8f5ec !important;
 }
 
 .site-block-appointment form, .bg-light form {
@@ -875,7 +876,7 @@ a:hover {
 }
 
 .site-block-3 .feature:hover, .site-block-3 .feature:focus {
-  background: #ece8d9;
+  background: #f8f5ec;
 }
 
 .site-block-half .image, .site-block-half .text {
