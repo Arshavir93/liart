@@ -244,11 +244,15 @@ a {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: var(--primary);
+    // background: var(--primary);
+	background: #d5b390;
     border-radius: 45px;
-    font-size: 22px;
+    font-size: 25px;
     transition: .5s;
 	opacity: 0.5;
+	&:hover {
+		opacity: 1;
+	}
 }
 
 

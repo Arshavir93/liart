@@ -278,13 +278,16 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   color: #FFFFFF;
-  /* background: var(--primary); */
   background: #d5b390;
   border-radius: 45px;
-  font-size: 22px;
+  font-size: 25px;
   -webkit-transition: .5s;
   transition: .5s;
   opacity: 0.5;
+}
+
+.team-carousel .owl-nav .owl-prev:hover, .team-carousel .owl-nav .owl-next:hover {
+  opacity: 1;
 }
 
 .overflow-hidden {
