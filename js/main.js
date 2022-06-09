@@ -241,3 +241,28 @@ jQuery(document).ready(function($) {
 	siteDatePicker();
 
 });
+
+
+// Team carousel
+$(".team-carousel, .related-carousel").owlCarousel({
+	autoplay: true,
+	smartSpeed: 1000,
+	margin: 45,
+	dots: false,
+	loop: true,
+	// loop: false,
+	// rewind: true,
+	nav : true,
+	navText : [
+		'<i class="icon-arrow-left"></i>',
+		'<i class="icon-arrow-right"></i>'
+	],
+	responsive: {
+		0:{
+			items:1
+		},
+		992:{
+			items:2
+		}
+	}
+});
